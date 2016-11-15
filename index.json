@@ -1,0 +1,31 @@
+{
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel",
+    "react",
+    "json"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "__DEV__": false,
+    "__PROD__": false,
+    "__DEBUG__": false,
+    "__COVERAGE__": false,
+    "__BASENAME__": false
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "no-underscore-dangle": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "react/no-unused-prop-types": ["error", { "skipShapeProps": true }]
+  }
+}
