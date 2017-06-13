@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seidemann-react",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "description": "Eslint config of Seidemann Web for react based projects.",
   "main": "index.json",
   "license": "MIT",
@@ -17,24 +17,24 @@
     "url": "https://github.com/Seidemann-Web/eslint-config-seidemann-react.git"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^14.1.0"
+    "eslint-config-airbnb": "^15.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.0",
-    "eslint": "^3.15.0",
-    "eslint-plugin-babel": "^4.0.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-json": "^1.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.0.1"
   },
   "peerDependencies": {
     "babel-eslint": "^7.1.0",
-    "eslint": "^3.15.0",
-    "eslint-plugin-babel": "^4.0.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-json": "^1.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.0.1"
   }
 }
