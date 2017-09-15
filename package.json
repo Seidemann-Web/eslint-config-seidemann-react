@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seidemann-react",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Eslint config of Seidemann Web for react based projects.",
   "main": "index.json",
   "license": "MIT",
