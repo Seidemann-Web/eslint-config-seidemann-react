@@ -11,5 +11,13 @@
   },
   "rules": {
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.spec.jsx", "*.spec.js"],
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    }
+  ]
 }
