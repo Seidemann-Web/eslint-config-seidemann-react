@@ -21,6 +21,7 @@
     "__BASENAME__": false
   },
   "rules": {
+    "jsx-a11y/href-no-hash": "off",
     "no-underscore-dangle": "off",
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "react/no-array-index-key": 0,
