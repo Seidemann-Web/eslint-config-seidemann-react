@@ -25,6 +25,12 @@
     "no-underscore-dangle": "off",
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "react/no-array-index-key": 0,
+    "object-curly-newline": ["error", {
+      "ObjectExpression": { "minProperties": 0, "multiline": true, "consistent": true },
+      "ObjectPattern": { "minProperties": 0, "multiline": true, "consistent": true }
+    }],
+    "react/default-props-match-prop-types": "off",
+    "react/no-typos": "off",
     "mysticatea/no-instanceof-array": "error"
   }
 }
