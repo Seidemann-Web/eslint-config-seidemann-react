@@ -22,14 +22,20 @@
   },
   "rules": {
     "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/label-has-for": "off",
     "no-underscore-dangle": "off",
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "react/no-array-index-key": 0,
     "object-curly-newline": ["error", {
       "ObjectExpression": { "minProperties": 0, "multiline": true, "consistent": true },
-      "ObjectPattern": { "minProperties": 0, "multiline": true, "consistent": true }
+      "ObjectPattern": { "minProperties": 0, "multiline": true, "consistent": true },
+      "ImportDeclaration": { "multiline": true, "consistent": true },
+      "ExportDeclaration": { "multiline": true, "consistent": true }
     }],
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
     "react/default-props-match-prop-types": "off",
+    "react/destructuring-assignment": "off",
     "react/no-typos": "off",
     "mysticatea/no-instanceof-array": "error"
   }
